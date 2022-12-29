@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background-color:silver">
+<div  class="image"id="images">
+<div>
+        <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+        <h2 id="titleDescription">Beautiful Commercial Photography</h2>
+        <a onclick="myFunction()" id="viewWork">View Work</a>
+</div>
+        <img src="https://images.unsplash.com/photo-1556103255-4443dbae8e5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="pic1" id="backGroundImage" width="1000px" height="500px" >
+</div>
+<div class="image">
+        <h3 id="ourWork"> Our Work</h3>
+        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzc2VydHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="pic2" id="firstImage" width="1000px" height="500px" >
+</div>
+<div class="image">
+        <img src="https://expertphotography.b-cdn.net/wp-content/uploads/2020/06/dessert-photography-5.jpg" alt="pic3" id="secondImage" width="1000px" height="500px"><p id="firstImageName"> Food Photography </p>
+        
+</div>
+<div class="image">
+        <img src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2013/09/aerial-photography-fort-bourtange-netherlands.jpg" alt="pic4" id="thirdImage" width="1000px" height="500px"><br>
+        <p id="secondImageName">Aerial Photography</p>
+</div>
+<div class="image">
+        <img src="https://eavf3cou74b.exactdn.com/wp-content/uploads/2019/08/06101526/12.png?strip=all&lossy=1&ssl=1" alt="pic5" id="fourthImage" width="1000px" height="500px">
+        <p id="thirdImageName">Abstract Photography</p>
+</div>
+</div>
+</div>
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>

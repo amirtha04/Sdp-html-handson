@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Book</title>
+</head>
+<body background="https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png" style="font-size:30px">
+  <img src="https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png" id="backgroundImage"  width="1" height="1">
+  <div align="center">
+    <h1 id="TitleName" style="color:gold">FRIENDS BOOK</h1>
+    <form style="color:white">
+        <label id="yourName">Your Name:</label>
+        <input type="text" id="textBox"><br>
+        <label id="field1">1.A Message for me!</label><br>
+        <input type="text" id="textBox1"><br>
+        <label >2.A Nick name for me?</label><br>
+        <input type="text" id="textBox2"><br>
+        <label >3.Have you ever lied to me?</label><br>
+        <input type="radio" id="yesMayBe" value="Yes">yes
+        <input type="radio" id="yesMayBe" value="Maybe">maybe<br>
+        <label >4.How do you feel when you talk to me?</label><br>
+        <input type="radio" value="Happy">happy
+        <input type="radio" value="Irritated">Irritated<br>
+        <label >5.Do you like to go on a roadtrip with me ?</label><br>
+        <input type="radio" value="Yes">Yes
+        <input type="radio" value="No">No<br>
+        <label >6.Best colour that suits me?</label><br>
+        <input type="checkbox" id="bestColour" value="Red">Red
+        <input type="checkbox" id="bestColour" value="Black">Black
+        <input type="checkbox" id="bestColour" value="White">White
+        <input type="checkbox" id="bestColour" value="Blue">Blue
+        <input type="checkbox" id="bestColour" value="Green">Green<br>
+        <label >7.The best moment in our Friendship? </label><br>
+        <input type="text" ><br>
+    </form>
+  </div>
+</body>
+</html>
