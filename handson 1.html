@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Food</title>
+    <style>
+      h1 {
+        color:white;
+        position: absolute;
+        top: 40px;
+        left: 205px;
+      }
+      h3 {
+        color: black;
+        text-align: center;
+      }
+          p{
+        color: white;
+        text-align: center;
+      }
+      .food_image {
+        width: 70%;
+        height: 50%;
+      }
+
+      img {
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        padding-left: 60px;
+      }
+    </style>
+ </head>
+
+<body>
+    <div>
+      <div>
+        <div style="background-color: lightblue" class="food_image">
+          <h1 id="titleName">My favourite food</h1>
+          <img id="titleImage" src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/eggless-chocolate-cake-1.jpg" alt="pic3">
+        </div>
+        <div style="background-color: silver" class="food_image">
+          <h3 id="favFood1">PIZZA</h3>
+          <p id="foodDescription1">pizza comes in a very big variety of tastes depending on ingredients,making the size and texture on their own, they taste pretty good.</p>
+          <img id="favFoodImage1"
+            src="https://static.toiimg.com/photo/51892394.cms"
+            alt="pic2">
+        </div>
+        <div style="background-color:lightpink" class="food_image">
+          <h3 id="favFood2">CAKES</h3>
+          <p id="foodDescription2">A ready-to-eat slice of heaven.A smile with a frosting on it.</p>
+          <img id="favFoodImage2"
+            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1542062283%2Fchocolate-and-cream-layer-cake-1812-cover.jpg%3Fitok%3DrEWL7AIN"
+            alt="pic1"
+          />
+        </div>
+        <div style="background-color:gold" class="food_image">
+          <h3 id="favFood3">CHOCOLATES</h3>
+          <p id="foodDescription3">As long as there is chocolate, there will be happiness.</p>
+          <img id="favFoodImage3"
+            src="https://w0.peakpx.com/wallpaper/35/365/HD-wallpaper-chocolates-colorful-candy-food-chocolate-sweet-dessert.jpg"
+            alt="pic4"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("images");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
